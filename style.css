@@ -12,7 +12,7 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(180deg, #ffffff, #ada0ff);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 189, 255));
 }
 
 .search input {
@@ -92,4 +93,8 @@ body {
 .humidity, .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather {
+    display: none;
 }
